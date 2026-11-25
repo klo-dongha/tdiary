@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>T의 일기 · T&#x27;s Diary</title><link rel="icon" href="icon.png"><link rel="apple-touch-icon" href="icon.png">
+<style>
+:root{--bg:#f2f1ee;--card:#fff;--ink:#111;--muted:#6b6b6b;--line:#e3e0d8;--hl:#ffe45c;--hl-under:#ffe45c;--todo-bg:#ffd9d6;--todo-ink:#8a1c1c;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0b0b0c;--card:#1b1b1d;--ink:#f2f2f2;--muted:#9a9a9a;--line:#2a2a2b;--hl:#ffd60a;--hl-under:rgba(255,214,10,.42);--todo-bg:#5a1f1c;--todo-ink:#ffd9d6;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.72 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Segoe UI",Roboto,sans-serif;word-break:keep-all;overflow-wrap:anywhere}
+.wrap{max-width:760px;margin:0 auto;padding:20px max(16px,env(safe-area-inset-right)) 64px max(16px,env(safe-area-inset-left))}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:28px}
+.brand{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none;font-weight:700}
+.brand img{width:32px;height:32px;border-radius:8px}
+nav.lang a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:12px}
+nav.lang a[aria-current]{color:var(--ink);font-weight:700}
+h1{font-size:28px;line-height:1.35;margin:0 0 6px;letter-spacing:-.02em}
+h1 span{background:linear-gradient(transparent 60%,var(--hl-under) 60%);padding:0 2px}
+h2{font-size:18px;margin:40px 0 10px;letter-spacing:-.01em;scroll-margin-top:16px}
+p.meta{color:var(--muted);margin-top:0}
+a{color:inherit;text-decoration-color:var(--hl);text-decoration-thickness:3px;text-underline-offset:2px}
+.tbl{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.6}
+th,td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:0}
+th{font-weight:700;white-space:nowrap}
+ul,ol{padding-left:1.3em}
+li{margin:4px 0}
+details.toc{background:var(--card);border-radius:12px;padding:10px 16px;margin:20px 0 8px}
+details.toc summary{cursor:pointer;font-weight:700}
+details.toc ol{margin:8px 0 4px;font-size:15px}
+mark.todo{background:var(--todo-bg);color:var(--todo-ink);border-radius:4px;padding:0 4px;font-weight:700;font-size:.9em}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.hero{display:flex;gap:18px;align-items:center;margin:8px 0 28px}
+.hero img{width:96px;height:96px;border-radius:22px;flex:none}
+.links{display:grid;gap:10px;margin:18px 0}
+.links a{display:block;background:var(--card);border-radius:14px;padding:14px 16px;text-decoration:none;font-weight:700}
+.links a small{display:block;font-weight:400;color:var(--muted)}
+@media print{:root{--bg:#fff;--card:#fff;--ink:#111;--muted:#555;--line:#ddd;--hl:#ffe45c;--hl-under:#ffe45c;--todo-bg:#ffd9d6;--todo-ink:#8a1c1c;color-scheme:light}body{-webkit-print-color-adjust:exact;print-color-adjust:exact}details.toc{display:none}.tbl{overflow:visible}}
+</style></head><body><div class="wrap">
+<header class="top"><a class="brand" href=""><img src="icon.png" alt="">T의 일기 · T's Diary</a><nav class="lang"></nav></header>
+<main>
+<div class="hero"><img src="icon.png" alt="T의 일기 앱 아이콘"><div><h1><span>T의 일기</span></h1><p class="meta">T's Diary · iPhone</p></div></div>
+<p>그날 머문 동네, 수면·걸음·운동, 사진, 일정, 날씨가 먼저 채워진 일기 앱이에요. 기록은 이 iPhone에서 처리하고, 개발자에게 보내지 않아요.</p>
+<p lang="en">A diary that starts with the facts of your day — places, sleep, steps, photos, events and weather. Everything is processed on your iPhone and never sent to us.</p>
+<div class="links">
+<a href="ko/privacy/">개인정보 처리방침<small>한국어</small></a>
+<a href="en/privacy/" lang="en">Privacy Policy<small>English</small></a>
+<a href="en/health-data/" lang="en">Consumer Health Data Privacy Policy<small>English</small></a>
+</div>
+<p class="meta">App Store 출시를 준비하고 있어요 · Coming soon to the App Store</p>
+</main>
+<footer>문의 · <a href="mailto:wehahee@gmail.com">wehahee@gmail.com</a></footer>
+</div></body></html>
